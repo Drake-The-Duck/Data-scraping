@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+.centering {
+    justify-content: center;
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.error {
+    color: red;
+    font-size: small;
+}
+#logo {
+    font-family: 'Birthstone', cursive;
+    font-size: 40px;
+}
+.registerBtn {
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Birthstone', cursive;
+    font-size: 35px;
+}
+
+#btn1 {
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+
+
+.mainheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    height: 200px;
+    margin-top: 15px;
+}
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #212529;
+}
+
